@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="CircumstanceBonus.fs" />
+    <Compile Include="ItemBonus.fs" />
+    <Compile Include="ProficiencyBonus.fs" />
+    <Compile Include="StatusBonus.fs" />
+    <Compile Include="Bonuses.fs" />
+  </ItemGroup>
+
+</Project>
