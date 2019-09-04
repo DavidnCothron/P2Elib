@@ -5,7 +5,14 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="Library.fs" />
+    <Compile Include="Feats.fs" />
+    <Compile Include="GeneralFeat.fs" />
+    <Compile Include="ClassFeat.fs" />
+    <Compile Include="AncestryFeat.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\P2Elib.Traits\P2Elib.Traits.fsproj" />
   </ItemGroup>
 
 </Project>

@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="UntypedTraits.fs" />
+    <Compile Include="WeaponTraits.fs" />
+    <Compile Include="TraditionTraits.fs" />
+    <Compile Include="SchoolTraits.fs" />
+    <Compile Include="RarityTraits.fs" />
+    <Compile Include="PoisonTraits.fs" />
+    <Compile Include="MonsterTraits.fs" />
+    <Compile Include="EquipmentTraits.fs" />
+    <Compile Include="EnergyTraits.fs" />
+    <Compile Include="ElementalTraits.fs" />
+    <Compile Include="CreatureTypeTraits.fs" />
+    <Compile Include="ClassTraits.fs" />
+    <Compile Include="ArmorTraits.fs" />
+    <Compile Include="AncestryTraits.fs" />
+    <Compile Include="AlignmentTraits.fs" />
+    <Compile Include="Traits.fs" />
+  </ItemGroup>
+
+</Project>

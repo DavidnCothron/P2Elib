@@ -27,7 +27,7 @@
             | ItemBonus i -> ItemBonus i
             | StatusBonus i -> StatusBonus i
             
-    let private getProficiencyBonus bonuses =
+    let getProficiencyBonus bonuses =
         let getProficiencyBonuses = 
             List.choose(fun (x) -> 
                 match x with
